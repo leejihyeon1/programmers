@@ -1,4 +1,4 @@
-package stack_queue;
+package Stack_Queue;
 
 // 스택/큐 - 기능개발
 //각 기능의 개발속도는 모두 다르기 때문에 뒤에 있는 기능이 앞에 있는 기능보다 먼저 개발될 수 있고,
