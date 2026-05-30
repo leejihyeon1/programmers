@@ -11,7 +11,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-public class developfunction {
+public class developFunction {
     //1. 문제를 단순하게 하기
     public int[] solution(int[] progresses, int[] speeds) {
 

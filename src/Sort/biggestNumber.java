@@ -7,7 +7,7 @@ package Sort;
 
 import java.util.Arrays;
 
-public class biggestnumber {
+public class biggestNumber {
     //1.문제를 간단하게 하기
     public String solution(int[] numbers) {
         //2.문자열로 변환
@@ -31,7 +31,7 @@ public class biggestnumber {
     }
 
     public static void main(String[] args) {
-        biggestnumber biggestnumber = new biggestnumber();
+        biggestNumber biggestnumber = new biggestNumber();
         int[] arr = new int[]{6, 10, 2};
         biggestnumber.solution(arr);
     }

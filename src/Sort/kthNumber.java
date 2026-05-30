@@ -1,14 +1,13 @@
 package Sort;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 //정렬 - K번째 수
 //배열 array의 i번째 숫자부터 j번째 숫자까지 자르고 정렬했을 때,
 //k번째에 있는 수를 구하려 합니다.
 //배열 array, [i, j, k]를 원소로 가진 2차원 배열 commands
-public class kthnumber {
+public class kthNumber {
     //1.문제를 단순하게 하기
     public int[] solution(int[] array, int[][] commands) {
         //2.배열 숫자 자르기
@@ -49,7 +48,7 @@ public class kthnumber {
     }
 
     public static void main(String[] args) {
-        kthnumber k = new kthnumber();
+        kthNumber k = new kthNumber();
         int[] array = new int[]{1, 5, 2, 6, 3, 7, 4};
         int[][] commands = new int[][]{{2, 5, 3},{4, 4, 1},{1, 7, 3}};
         k.solution(array,commands);

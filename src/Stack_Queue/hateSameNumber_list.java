@@ -6,7 +6,7 @@ package Stack_Queue;
 import java.util.ArrayList;
 import java.util.List;
 
-public class hatesamenumber_list {
+public class hateSameNumber_list {
     //1. 문제 간단하게 만들기
     public int[] solution(int []arr) {
         //2. 배열은 크기를 명시해줘야하기 때문에 리스트에 담은 후 배열로 옮길 예정
@@ -27,7 +27,7 @@ public class hatesamenumber_list {
     }
 
     public static void main(String[] args) {
-        hatesamenumber_list test = new hatesamenumber_list();
+        hateSameNumber_list test = new hateSameNumber_list();
         int[] arr = new int[]{1,1,3,3,0,1,1};
         test.solution(arr);
     }

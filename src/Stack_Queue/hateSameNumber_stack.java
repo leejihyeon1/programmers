@@ -4,7 +4,7 @@ package Stack_Queue;
 //배열 arr에서 연속적으로 나타나는 숫자는 제거하고 남은 수들을 return 하는 solution 함수를 완성해 주세요.
 import java.util.Stack;
 
-public class hatesamenumber_stack {
+public class hateSameNumber_stack {
     //1. 문제 간단하게 만들기
     public int[] solution(int []arr) {
         Stack<Integer> stack = new Stack<>();
@@ -24,7 +24,7 @@ public class hatesamenumber_stack {
     }
 
     public static void main(String[] args) {
-        hatesamenumber_stack test = new hatesamenumber_stack();
+        hateSameNumber_stack test = new hateSameNumber_stack();
         int[] arr = new int[]{1,1,3,3,0,1,1};
         test.solution(arr);
     }
